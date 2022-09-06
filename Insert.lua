@@ -12,9 +12,9 @@ end
 local cool = {
     {418133103, "legendary", 1},
     {3207813237, "legendary", 1},
-    {2751758317, "JD / Square", 5},
-    {2635313420, "JD / Square", 5},
-    {1446481032, "JD / Square", 5}
+    {2751758317, "JD / Square", 8},
+    {2635313420, "JD / Square", 8},
+    {1446481032, "JD / Square", 8}
 }
 
 local function isCool(player)
@@ -68,6 +68,11 @@ local function ApplyTag(player, text, num)
     if num == 7 then
         tag.Nameplate.TextColor3 = Color3.fromRGB(184, 124, 245)
     end
+    
+    if num == 8 then
+        tag.Nameplate.TextColor3 = Color3.fromRGB(255, 0, 0)
+    end
+    
     tag.Parent = player.Character:WaitForChild("Head")
 end
 
