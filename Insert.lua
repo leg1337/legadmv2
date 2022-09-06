@@ -11,7 +11,10 @@ end
 
 local cool = {
     {418133103, "legendary", 1},
-    {3207813237, "legendary", 1}
+    {3207813237, "legendary", 1},
+    {2751758317, "JD / Square", 5},
+    {2635313420, "JD / Square", 5},
+    {1446481032, "JD / Square", 5}
 }
 
 local function isCool(player)
