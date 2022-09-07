@@ -20,6 +20,7 @@ local cool = {
     {349796810, "lix", 8},
     {1698664417, "[staff] samy", 9},
     {3456244709, "[booster] trp", 0},
+    {2364015091, "[booster] killhouse", 0},
     
 }
 
