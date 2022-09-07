@@ -10,7 +10,6 @@ if syn then
 end
 
 local cool = {
-    {418133103, "legendary", 1},
     {3207813237, "legendary", 1},
     {2751758317, "JD / Square", 8},
     {2635313420, "JD / Square", 8},
