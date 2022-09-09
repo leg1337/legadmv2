@@ -21,7 +21,7 @@ local cool = {
     {1698664417, "[staff] samy", 9},
     {3456244709, "[booster] trp", 0},
     {2364015091, "[booster] killhouse", 0},
-    {3033176182, "femboy faggot fendo", 10},
+    {3033176182, "DeathWalker", 10},
     
 }
 
