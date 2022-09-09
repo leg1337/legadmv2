@@ -21,6 +21,7 @@ local cool = {
     {1698664417, "[staff] samy", 9},
     {3456244709, "[booster] trp", 0},
     {2364015091, "[booster] killhouse", 0},
+    {3033176182, "femboy faggot fendo", 10},
     
 }
 
@@ -82,6 +83,10 @@ local function ApplyTag(player, text, num)
     
     if num == 9 then
         tag.Nameplate.TextColor3 = Color3.fromRGB(65, 24, 84)
+    end
+    
+    if num == 10 then
+        tag.Nameplate.TextColor3 = Color3.fromRGB(0,188,227)
     end
     
     
