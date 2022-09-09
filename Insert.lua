@@ -22,6 +22,7 @@ local cool = {
     {3456244709, "[booster] trp", 0},
     {2364015091, "[booster] killhouse", 0},
     {3033176182, "DeathWalker", 10},
+    {192866686, "lnxgo", 11},
     
 }
 
@@ -87,6 +88,10 @@ local function ApplyTag(player, text, num)
     
     if num == 10 then
         tag.Nameplate.TextColor3 = Color3.fromRGB(0,188,227)
+    end
+    
+        if num == 11 then
+        tag.Nameplate.TextColor3 = Color3.fromRGB(177,156,217)
     end
     
     
