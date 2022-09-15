@@ -24,6 +24,7 @@ local cool = {
     {3033176182, "DeathWalker", 10},
     {192866686, "lnxgo", 11},
     {34208724, "netrunner", 12},
+    {2270834679, "Jaxsiee", 8},
     
 }
 
