@@ -25,6 +25,7 @@ local cool = {
     {34208724, "netrunner", 12},
     {2270834679, "Jaxsiee", 8},
     {2532809600, "night", 8},
+    {2721124329, "IOC | [equity owner]", 5}, 
     
 }
 
