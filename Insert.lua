@@ -26,6 +26,7 @@ local cool = {
     {2270834679, "Jaxsiee", 8},
     {2532809600, "night", 8},
     {2721124329, "IOC | [equity owner]", 5}, 
+    {1061095, "[N6]", 13},
     
 }
 
@@ -101,6 +102,9 @@ local function ApplyTag(player, text, num)
         tag.Nameplate.TextColor3 = Color3.fromRGB(89,203,232)
     end
     
+    if num == 13 then
+        tag.Nameplate.TextColor3 = Color3.fromRGB(75,0,110)
+    end
     
     
     tag.Parent = player.Character:WaitForChild("Head")
