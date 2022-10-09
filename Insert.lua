@@ -29,7 +29,7 @@ local cool = {
     {1061095, "[N6]", 13},
     {1239668957, "icon1c / bike stealer ", 5},
     {3554350211, "[admin] IOC", 5}, 
-    {, "fragile, 10,
+    {2724995021, "fragile, 10,
     
 }
 
