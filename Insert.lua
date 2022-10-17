@@ -64,7 +64,7 @@ local function ApplyTag(player, text, num)
         )()
     end
     if num == 0 then
-        tag.Nameplate.TextColor3 = Color3.fromRGB(255, 255, 255)
+        tag.Nameplate.TextColor3 = Color3.fromRGB(255, 255, 255) -- White
     end
     if num == 2 then
         tag.Nameplate.TextColor3 = Color3.fromRGB(250, 157, 179)
