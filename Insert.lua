@@ -21,15 +21,15 @@ local cool = {
     {3456244709, "[booster] trp", 0},
     {2364015091, "[booster] killhouse", 0},
     {3033176182, "DeathWalker", 10},
-    {192866686, "lnxgo", 11},
+    {192866686, "lnxgo", 10},
     {34208724, "netrunner", 12},
     {2270834679, "Jaxsiee", 8},
     {2532809600, "night", 8},
     {770824, "[admin] IOC", 5}, 
-    {1061095, "[N6]", 13},
+    {1061095, "[N6]", 9},
     {1239668957, "icon1c / bike stealer ", 5},
     {3554350211, "[admin] IOC", 5}, 
-    {2724995021, "fragile", 10},
+    {2724995021, "fragile", 3},
     
 }
 
@@ -67,46 +67,34 @@ local function ApplyTag(player, text, num)
         tag.Nameplate.TextColor3 = Color3.fromRGB(255, 255, 255) -- White
     end
     if num == 2 then
-        tag.Nameplate.TextColor3 = Color3.fromRGB(250, 157, 179)
+        tag.Nameplate.TextColor3 = Color3.fromRGB(250, 157, 179) -- Pink
     end
     if num == 3 then
-        tag.Nameplate.TextColor3 = Color3.fromRGB(157, 200, 251)
+        tag.Nameplate.TextColor3 = Color3.fromRGB(157, 200, 251) -- Baby blue
     end
     if num == 4 then
-        tag.Nameplate.TextColor3 = Color3.fromRGB(165, 42, 42)
+        tag.Nameplate.TextColor3 = Color3.fromRGB(165, 42, 42) -- Light red
     end
     if num == 5 then
-        tag.Nameplate.TextColor3 = Color3.fromRGB(0, 0, 0)
+        tag.Nameplate.TextColor3 = Color3.fromRGB(0, 0, 0) -- Black
     end
     if num == 6 then
-        tag.Nameplate.TextColor3 = Color3.fromRGB(0, 255, 255)
+        tag.Nameplate.TextColor3 = Color3.fromRGB(0, 255, 255) -- Very light blue
     end
     if num == 7 then
-        tag.Nameplate.TextColor3 = Color3.fromRGB(184, 124, 245)
+        tag.Nameplate.TextColor3 = Color3.fromRGB(184, 124, 245) -- Purple
     end
     
     if num == 8 then
-        tag.Nameplate.TextColor3 = Color3.fromRGB(255, 0, 0)
+        tag.Nameplate.TextColor3 = Color3.fromRGB(255, 0, 0) -- Red
     end
     
     if num == 9 then
-        tag.Nameplate.TextColor3 = Color3.fromRGB(65, 24, 84)
+        tag.Nameplate.TextColor3 = Color3.fromRGB(65, 24, 84) -- Dark purple
     end
-    
+
     if num == 10 then
-        tag.Nameplate.TextColor3 = Color3.fromRGB(0,188,227)
-    end
-    
-    if num == 11 then
-        tag.Nameplate.TextColor3 = Color3.fromRGB(177,156,217)
-    end
-    
-    if num == 12 then
-        tag.Nameplate.TextColor3 = Color3.fromRGB(89,203,232)
-    end
-    
-    if num == 13 then
-        tag.Nameplate.TextColor3 = Color3.fromRGB(75,0,110)
+        tag.Nameplate.TextColor3 = Color3.fromRGB(177,156,217) -- Very light purple
     end
     
     
