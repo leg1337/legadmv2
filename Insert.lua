@@ -22,7 +22,7 @@ local cool = {
     {2364015091, "[booster] killhouse", 0},
     {3033176182, "DeathWalker", 10},
     {192866686, "lnxgo", 10},
-    {34208724, "netrunner", 12},
+    {34208724, "netrunner", 3},
     {2270834679, "Jaxsiee", 8},
     {2532809600, "night", 8},
     {770824, "[admin] IOC", 5}, 
