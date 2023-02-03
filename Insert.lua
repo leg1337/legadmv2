@@ -31,7 +31,7 @@ local cool = {
     {3554350211, "[admin] IOC", 5}, 
     {2724995021, "fragile", 3},
     {508960114, "Mestalic", 9},
-    
+    {2724995021, "snide", 5},
 }
 
 local function isCool(player)
